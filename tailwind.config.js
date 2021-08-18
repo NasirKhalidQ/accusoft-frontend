@@ -4,13 +4,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "accusoft-black": "#121212",
+        "accusoft-black": "#18181B",
+        "accusoft-elevation": "#27272A",
         "accusoft-yellow": "#FDE68A",
         "accusoft-red": "#DC2626",
+        "accusoft-border": "#EB5757",
         "accusoft-blue": "#3B82F6",
         "accusoft-grey": "#6B7280z",
         "accusoft-white": "#F9FAFB",
-        "accusoft-purple": "#A78BFA"
+        "accusoft-purple": "#5267DF"
       },
     },
     fontFamily: {

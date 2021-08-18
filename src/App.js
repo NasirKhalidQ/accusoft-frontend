@@ -1,18 +1,18 @@
 import './App.css';
-import Hamburger from 'hamburger-react';
-import { useState } from 'react';
 import NavBar from './NavBar';
 import Landing from './Landing';
+import Features from './Features';
+import Faq from './FAQ'
 
 function App() {
-  const [isOpen, setOpen] = useState(false)
-
-  return (
-    <>
-    <NavBar />
-    <Landing />
-    </>
-  );
+	return (
+		<>
+			<NavBar />
+			<Landing />
+			<Features />
+			<Faq />
+		</>
+	);
 }
 
 export default App;
