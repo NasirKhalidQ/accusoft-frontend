@@ -7,7 +7,7 @@ function NavBar() {
   return (
     <>
       {isOpen && (
-        <nav className="gap-12 absolute bg-accusoft-black p-6 h-44 sm:hidden w-6/12 justify-start top-0 right-0 text-xl border-l-2 border-b-2 border-accusoft-white text-accusoft-white">
+        <nav className="gap-12 absolute bg-accusoft-black p-6 h-44 sm:hidden w-6/12 justify-start top-0 right-0 text-xl border-l-2 border-b-2 border-accusoft-white text-accusoft-white z-10">
           <ul>
             <li className="mt-8 hover:text-accusoft-purple">Services</li>
             <li className="mt-2 hover:text-accusoft-purple">About</li>
@@ -47,7 +47,7 @@ function NavBar() {
             </a>
           </li>
         </ul>
-        <div className="absolute px-6 py-4 sm:hidden top-0 right-0">
+        <div className="absolute px-6 py-4 sm:hidden top-0 right-0 z-10">
           <Hamburger toggled={isOpen} toggle={setOpen} color="white" />
         </div>
       </div>

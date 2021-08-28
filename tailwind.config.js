@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -12,7 +12,9 @@ module.exports = {
         "accusoft-blue": "#3B82F6",
         "accusoft-grey": "#6B7280z",
         "accusoft-white": "#F9FAFB",
-        "accusoft-purple": "#5267DF"
+        "accusoft-purple": "#5267DF",
+        "accusoft-bg-green": "#64ffda1a",
+        "accusoft-green": "#66ffdb",
       },
     },
     fontFamily: {
@@ -21,10 +23,10 @@ module.exports = {
     container: {
       center: true,
       padding: "1rem",
-    }
+    },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
-}
+  plugins: [require("@tailwindcss/forms")],
+};
