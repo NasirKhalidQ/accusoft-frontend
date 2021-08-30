@@ -40,7 +40,7 @@ function About() {
                 alt=""
               ></img>
             </div>
-            <div className="text-accusoft-yellow text-2xl flex flex-col">
+            <div className="text-accusoft-yellow text-2xl flex flex-col mt-20">
               <h2>Meet our team</h2>
             </div>
             <div className="grid grid-cols-2">
