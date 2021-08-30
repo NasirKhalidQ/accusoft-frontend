@@ -1,5 +1,6 @@
 import Hamburger from "hamburger-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   const [isOpen, setOpen] = useState(false);
@@ -20,31 +21,14 @@ function NavBar() {
           <img src="./imgs/logo.svg" width="250" height="250" alt="logo" />
         </div>
         <ul className="hidden sm:flex flex-1 justify-end items-center gap-12 text-accusoft-yellow uppercase text-sm">
-          <li className="group">
-            {" "}
-            <a
-              className="group-hover:text-accusoft-purple border-2 border-dashed border-accusoft-purple border-opacity-0 hover:border-opacity-100 flex text-left"
-              href="#"
-            >
-              Services
-            </a>
+          <li className="group-hover:text-accusoft-purple border-2 border-dashed border-accusoft-purple border-opacity-0 hover:border-opacity-100 flex text-left">
+            <Link to="/">Services</Link>
           </li>
-          <li>
-            {" "}
-            <a
-              className="hover:text-accusoft-purple border-2 border-dashed border-accusoft-purple border-opacity-0 hover:border-opacity-100"
-              href="#"
-            >
-              About
-            </a>
+          <li className="hover:text-accusoft-purple border-2 border-dashed border-accusoft-purple border-opacity-0 hover:border-opacity-100">
+            <Link to="/about">About</Link>
           </li>
-          <li>
-            <a
-              className="hover:text-accusoft-purple border-2 border-dashed border-accusoft-purple border-opacity-0 hover:border-opacity-100"
-              href="#"
-            >
-              Contact
-            </a>
+          <li className="hover:text-accusoft-purple border-2 border-dashed border-accusoft-purple border-opacity-0 hover:border-opacity-100">
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
         <div className="absolute px-6 py-4 sm:hidden top-0 right-0 z-10">
