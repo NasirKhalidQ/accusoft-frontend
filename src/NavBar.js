@@ -10,9 +10,15 @@ function NavBar() {
       {isOpen && (
         <nav className="gap-12 absolute bg-accusoft-black p-6 h-44 sm:hidden w-6/12 justify-start top-0 right-0 text-xl border-l-2 border-b-2 border-accusoft-white text-accusoft-white z-10">
           <ul>
-            <li className="mt-8 hover:text-accusoft-purple">Services</li>
-            <li className="mt-2 hover:text-accusoft-purple">About</li>
-            <li className="mt-2 hover:text-accusoft-purple">Contact</li>
+            <li className="mt-8 hover:text-accusoft-purple">
+              <Link to="/">Services</Link>
+            </li>
+            <li className="mt-2 hover:text-accusoft-purple">
+              <Link to="/about">About</Link>
+            </li>
+            <li className="mt-2 hover:text-accusoft-purple">
+              <Link to="/contact">Contact</Link>
+            </li>
           </ul>
         </nav>
       )}
