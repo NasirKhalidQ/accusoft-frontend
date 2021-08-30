@@ -23,8 +23,10 @@ function NavBar() {
         </nav>
       )}
       <div className="container flex items-center py-4 mt-4 sm:mt-12">
-        <div className="py-1">
-          <img src="./imgs/logo.svg" width="250" height="250" alt="logo" />
+        <div className="py-1 cursor-pointer">
+          <Link to="/">
+            <img src="./imgs/logo.svg" width="250" height="250" alt="logo" />
+          </Link>
         </div>
         <ul className="hidden sm:flex flex-1 justify-end items-center gap-12 text-accusoft-yellow uppercase text-sm">
           <li className="hover:text-accusoft-purple border-2 border-dashed border-accusoft-purple border-opacity-0 hover:border-opacity-100 flex text-left">
