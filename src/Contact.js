@@ -53,7 +53,8 @@ function Contact() {
               </label>
               <button
                 onClick={openModal}
-                class="py-2 w-full px-4 rounded-lg shadow-md border-green-600 border-2 hover:bg-accusoft-bg-green text-green-600"
+                type="button"
+                className="py-2 w-full px-4 rounded-lg shadow-md border-green-600 border-2 hover:bg-accusoft-bg-green text-green-600"
               >
                 Submit
               </button>
