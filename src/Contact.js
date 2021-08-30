@@ -1,6 +1,17 @@
 import NavBar from "./NavBar";
+import Modal from "./Modal";
+import { useState } from "react";
 
 function Contact() {
+  let [isOpen, setIsOpen] = useState(false);
+
+  function closeModal() {
+    setIsOpen(false);
+  }
+
+  function openModal() {
+    setIsOpen(true);
+  }
   return (
     <>
       <NavBar />
@@ -40,9 +51,13 @@ function Contact() {
                   rows="6"
                 ></textarea>
               </label>
-              <button class="py-2 w-full px-4 rounded-lg shadow-md border-green-600 border-2 hover:bg-accusoft-bg-green text-green-600">
+              <button
+                onClick={openModal}
+                class="py-2 w-full px-4 rounded-lg shadow-md border-green-600 border-2 hover:bg-accusoft-bg-green text-green-600"
+              >
                 Submit
               </button>
+              <Modal isOpen={isOpen} closeModal={closeModal} />
             </div>
             <div className="hidden sm:flex row-span-2 pl-10 ">
               <img

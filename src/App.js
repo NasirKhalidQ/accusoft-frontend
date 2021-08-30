@@ -1,9 +1,6 @@
 import "./App.css";
-import NavBar from "./NavBar";
-import Landing from "./Landing";
-import Features from "./Features";
-import Faq from "./FAQ";
-import { Route, Router, BrowserRouter, Switch } from "react-router-dom";
+
+import { Route, BrowserRouter, Switch } from "react-router-dom";
 import Services from "./Home";
 import Contact from "./Contact";
 
