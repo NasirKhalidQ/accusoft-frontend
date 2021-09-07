@@ -44,8 +44,17 @@ function About() {
               <h2>Meet our team</h2>
             </div>
             <div className="grid grid-cols-2">
-              <Card title="KAC_Nade" img_src="./imgs/nade.jpeg" />
-              <Card title="Nade V2" img_src="./imgs/v2.jpeg" />
+              <Card
+                title="Abdullah Javed"
+                text="Abdullah is the brain behind AccuSoft and most of its management
+              tasks. He is a computer science graduate from UET and has experience in Oracle MySQL, Apex, ERP and machine learning projects"
+                img_src="./imgs/nade.jpeg"
+              />
+              <Card
+                title="Mister Niazi"
+                text="Niazi is backend developer, working behind the scenes, building and maintaining the technology needed to power the frontend"
+                img_src="./imgs/v2.jpeg"
+              />
             </div>
           </div>
         </div>

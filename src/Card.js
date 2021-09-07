@@ -1,4 +1,4 @@
-function Card({ img_src, title }) {
+function Card({ img_src, title, text }) {
   return (
     <>
       <div className="flex justify-between m-6">
@@ -16,8 +16,7 @@ function Card({ img_src, title }) {
           </div>
           <div className="px-4 space-y-2">
             <p className="text-gray-400 font-normal leading-5 tracking-wide">
-              KAC_Nade is the brain behind AccuSoft and most of its management
-              tasks. He occassionally(very rarely) 1v3 clutches diamond players.
+              {text}
             </p>
           </div>
           <div className="flex flex-row items-end h-full w-full px-4 mt-4">
