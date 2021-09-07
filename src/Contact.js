@@ -77,7 +77,7 @@ function Contact() {
                   with you ASAP!
                 </p>
               </label>
-              <form onSubmit={submit}>
+              <form className="grid gap-6" onSubmit={submit}>
                 <input type="hidden" name="form-name" value="contact" />
 
                 <label className="block">
