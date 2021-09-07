@@ -68,7 +68,7 @@ function Contact() {
             <div className="grid gap-6">
               <label className="block">
                 <span className="text-accusoft-white text-xl">
-                  Thank you for showing you interest in us!
+                  Thank you for showing your interest in us!
                 </span>
               </label>
               <label className="block w-full">
