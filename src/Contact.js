@@ -77,7 +77,7 @@ function Contact() {
                   with you ASAP!
                 </p>
               </label>
-              <form name="contact" onSubmit={submit} netlify>
+              <form name="contact" method="POST" data-netlify="true">
                 <label className="block">
                   <span className="text-accusoft-white">Full Name</span>
                   <input
