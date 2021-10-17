@@ -3,6 +3,7 @@ import NavBar from "./NavBar";
 import Landing from "./Landing";
 import Features from "./Features";
 import Faq from "./FAQ";
+import Footer from "./Footer";
 
 function Services() {
   return (
@@ -11,6 +12,7 @@ function Services() {
       <Landing />
       <Features />
       <Faq />
+      <Footer />
     </>
   );
 }
