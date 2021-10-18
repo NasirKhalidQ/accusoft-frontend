@@ -1,8 +1,8 @@
 function Footer() {
   return (
     <>
-      <footer className="footer px-4 grid md:grid-cols-3 text-gray-200 border-living-yellow border-t-2">
-        <div className="gap-y-1 grid-flow-col text-sm mt-6">
+      <footer className="footer px-4 grid md:grid-cols-3 text-gray-200 border-accusoft-yellow border-t-2">
+        <div className="gap-y-1 grid-flow-col text-sm">
           <div className="my-2">
             <div className="grid">
               <img
@@ -17,7 +17,7 @@ function Footer() {
             </p>
           </div>
         </div>
-        <div className="grid md:mt-32 md:justify-center">
+        <div className="grid my-4 md:mt-20 md:justify-center">
           <p>
             Made with ♥️ by
             <a
@@ -31,7 +31,7 @@ function Footer() {
           </p>
         </div>
 
-        <div className="gap-4 flex md:justify-end md:ml-auto mt-6 md:mt-32">
+        <div className="gap-4 flex md:justify-end md:ml-auto my-4 md:mt-20">
           <h3 className="text-base md:text-xl grid justify-self-center text-accusoft-yellow">
             Get in touch:
           </h3>
