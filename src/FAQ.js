@@ -17,7 +17,7 @@ function Faq() {
                 <Disclosure.Button
                   className={`${
                     open ? "text-accusoft-purple" : ""
-                  } flex justify-between w-full text-left group-hover:text-accusoft-purple text-accusoft-white`}
+                  } flex justify-between w-full text-left group-hover:text-accusoft-purple transition duration-500 ease-in-out text-accusoft-white`}
                 >
                   <span>
                     I own a small business. Do I need custom web application
@@ -26,7 +26,7 @@ function Faq() {
                   <ChevronDownIcon
                     className={`${
                       open ? "transform rotate-180 text-accusoft-purple" : ""
-                    } w-5 h-5 text-accusoft-white group-hover:text-accusoft-purple`}
+                    } w-5 h-5 text-accusoft-white group-hover:text-accusoft-purple `}
                   />
                 </Disclosure.Button>
                 <Disclosure.Panel className="pt-4 text-sm text-gray-500">
@@ -51,7 +51,7 @@ function Faq() {
                 <Disclosure.Button
                   className={`${
                     open ? "text-accusoft-purple" : ""
-                  } flex text-left justify-between w-full group-hover:text-accusoft-purple text-accusoft-white`}
+                  } flex text-left justify-between w-full group-hover:text-accusoft-purple transition duration-500 ease-in-out text-accusoft-white`}
                 >
                   <span>How to find a web development services company?</span>
                   <ChevronDownIcon
@@ -82,7 +82,7 @@ function Faq() {
                 <Disclosure.Button
                   className={`${
                     open ? "text-accusoft-purple" : ""
-                  } flex text-left justify-between w-full group-hover:text-accusoft-purple text-accusoft-white`}
+                  } flex text-left justify-between w-full group-hover:text-accusoft-purple transition duration-500 ease-in-out text-accusoft-white`}
                 >
                   <span>
                     I need professional web development services, no less. How
@@ -120,7 +120,7 @@ function Faq() {
                 <Disclosure.Button
                   className={`${
                     open ? "text-accusoft-purple" : ""
-                  } flex text-left justify-between w-full group-hover:text-accusoft-purple text-accusoft-white`}
+                  } flex text-left justify-between w-full group-hover:text-accusoft-purple transition duration-500 ease-in-out text-accusoft-white`}
                 >
                   <span>
                     Web software development services often include progressive

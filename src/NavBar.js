@@ -29,13 +29,13 @@ function NavBar() {
           </Link>
         </div>
         <ul className="hidden sm:flex flex-1 justify-end items-center gap-12 text-accusoft-yellow uppercase text-sm">
-          <li className="hover:text-accusoft-purple border-2 border-dashed border-accusoft-purple border-opacity-0 hover:border-opacity-100 flex text-left">
+          <li className="hover:text-accusoft-purple border-2 border-dashed border-accusoft-purple border-opacity-0 hover:border-opacity-100 flex text-left transition duration-500 ease-in-out">
             <Link to="/">Services</Link>
           </li>
-          <li className="hover:text-accusoft-purple border-2 border-dashed border-accusoft-purple border-opacity-0 hover:border-opacity-100">
+          <li className="hover:text-accusoft-purple border-2 border-dashed border-accusoft-purple border-opacity-0 hover:border-opacity-100 transition duration-500 ease-in-out">
             <Link to="/about">About</Link>
           </li>
-          <li className="hover:text-accusoft-purple border-2 border-dashed border-accusoft-purple border-opacity-0 hover:border-opacity-100">
+          <li className="hover:text-accusoft-purple border-2 border-dashed border-accusoft-purple border-opacity-0 hover:border-opacity-100 transition duration-500 ease-in-out">
             <Link to="/contact">Contact</Link>
           </li>
         </ul>

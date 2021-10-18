@@ -4,11 +4,16 @@ function Footer() {
       <footer className="footer px-4 grid md:grid-cols-3 text-gray-200 border-living-yellow border-t-2">
         <div className="gap-y-1 grid-flow-col text-sm mt-6">
           <div className="my-2">
-            <div className="grid ">
-              <img src="/imgs/logo-small.png" alt="accusoft logo" />
+            <div className="grid">
+              <img
+                src="/imgs/logo-small.png"
+                width="60px"
+                height="60px"
+                alt="accusoft logo"
+              />
             </div>
             <p className="my-4 text-gray-500">
-              Copyright Accusoft 2021, All rights reserved.
+              Copyright © Accusoft 2021, All rights reserved.
             </p>
           </div>
         </div>
@@ -16,7 +21,7 @@ function Footer() {
           <p>
             Made with ♥️ by
             <a
-              className="text-accusoft-blue ml-2"
+              className="text-accusoft-purple ml-2"
               target="_blank"
               href="https://www.linkedin.com/in/nasirkhalidq/"
               rel="noreferrer"
@@ -32,7 +37,7 @@ function Footer() {
           </h3>
 
           <a
-            className="cursor-pointer hover:text-blue-500"
+            className="cursor-pointer hover:text-blue-500 transition duration-500 ease-in-out"
             href="https://www.facebook.com"
             target="_blank"
             rel="noreferrer"
@@ -48,7 +53,7 @@ function Footer() {
             </svg>
           </a>
           <a
-            className="cursor-pointer hover:text-green-500"
+            className="cursor-pointer hover:text-green-500 transition duration-500 ease-in-out"
             href="https://api.whatsapp.com/send/?phone=923061696030&text&app_absent=0"
             target="_blank"
             rel="noreferrer"

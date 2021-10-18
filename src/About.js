@@ -2,6 +2,7 @@ import NavBar from "./NavBar";
 import Typewriter from "typewriter-effect";
 import GraphemeSplitter from "grapheme-splitter";
 import Card from "./Card";
+import Footer from "./Footer";
 
 function About() {
   const gsplitter = (string) => {
@@ -33,17 +34,17 @@ function About() {
                 stringSplitter: gsplitter,
               }}
             />
-            <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0 p-20">
+            <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0 p-6 md:p-20">
               <img
-                className="md:w-4/6 md:h-4/6"
+                className="w-full h-full md:w-4/6 md:h-4/6"
                 src="./imgs/about.svg"
                 alt=""
               ></img>
             </div>
-            <div className="text-accusoft-yellow text-2xl flex flex-col mt-20">
+            <div className="text-accusoft-yellow text-2xl flex flex-col mt-10 md:mt-20">
               <h2>Meet our team</h2>
             </div>
-            <div className="grid grid-cols-2">
+            <div className="grid md:grid-cols-2">
               <Card
                 title="Abdullah Javed"
                 text="Abdullah is the brain behind AccuSoft and most of its management
@@ -59,6 +60,7 @@ function About() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

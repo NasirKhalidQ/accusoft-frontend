@@ -1,6 +1,7 @@
 import NavBar from "./NavBar";
 import Modal from "./Modal";
 import { useState } from "react";
+import Footer from "./Footer";
 
 function Contact() {
   const [isOpen, setIsOpen] = useState(false);
@@ -133,6 +134,7 @@ function Contact() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }
